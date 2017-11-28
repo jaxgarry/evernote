@@ -1,4 +1,5 @@
-var descriptionArray = ['some text', 'some more text', 'some even longer text'];
+$(document).ready(function(){
+var descriptionArray = ['Remember everything.', 'Get organized.', 'Succeed together.', 'Meet Evernote, your second brain.'];
 var descriptionLength = descriptionArray.length;
 var description = $('#description-rotate');
 
@@ -11,3 +12,5 @@ function loop(i) {
 }
 
 loop(0);
+
+});

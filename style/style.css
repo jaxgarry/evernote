@@ -2,6 +2,9 @@
     font-size: 40px;
     color: green;
 }
+h1 #description-rotate {
+    font-size: 22px;
+}
 .benefit-1 .link {
     border-bottom: 2px solid #2dbe60; 
     font-family: "Gotham_SSm_5r", Helvetica, Arial, sans-serif;
