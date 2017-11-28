@@ -1,0 +1,54 @@
+.header {
+    font-size: 40px;
+    color: green;
+}
+.benefit-3{
+    padding-top: 150px;
+}
+h2 {
+    font-family: "Gotham_SSm_5r", Helvetica, Arial, sans-serif;
+    font-size: 35px;
+    font-weight: bold;
+    line-height: 45px;
+}
+h3 {
+    font-family: "Gotham_SSm_5r", Helvetica, Arial, sans-serif;
+    font-size: 17px;
+    font-weight: bold;    
+    line-height: 27px;
+    }
+h3 a {
+        text-decoration: none;
+        color: black;
+        font-weight: bold;
+    }
+h5 {
+    font-family: "Gotham_SSm_3r", Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #000;
+}
+
+.container .top-level-nav {
+    color:black;
+}
+.containter .top-level-nav .arrow {
+        display: inline-block;
+    border-top: 4px solid #000;
+    border-left: 3px solid transparent;
+    border-right: 3px solid transparent;
+    margin-left: 5px;
+    transition: .2s transform ease-in-out;
+}
+
+.container .top-level-nav .explore.open .arrow {
+    transform: rotate(-180deg);
+    transition: .2s transform ease-in-out; }
+
+
+@media only screen and (max-width: 991px) {
+    .benefit-3 {
+        padding-top: 10px;
+    }
+}
