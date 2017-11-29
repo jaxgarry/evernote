@@ -1,6 +1,72 @@
+.navbar {
+    min-height: 90px;
+    margin-bottom: 20px;
+}
+.navbar-brand img{
+    max-width: 225px;
+    margin-left: 35px;
+    margin-right: 35px;
+}
+.dropdown a {
+    text-decoration: none;
+    color: gray;
+}
+.dropdown a:hover {
+    color: #2dbe60;
+}
+.dropdown ul, li {
+    padding: 10px;
+}
 .header {
     font-size: 40px;
     color: green;
+}
+.btn.btn-secondary {
+    color: #000000;
+    background: #ffffff;
+    border: 2;
+    border-color: #B0ADAD;
+    border-radius: 4px;
+    padding: 18px 20px 17px;
+    font-size: 16px;
+    min-width: 450px;
+    font-weight: bold;
+}
+.or-line {    
+    display: flex;
+    align-items: center;
+    margin: 22px 0;
+    max-width: 450px;
+    color: #9A9C9C;
+}
+
+.horizontal-or-line {
+    flex: 1 1;
+    height: 1px;
+    background-color: #f3f3f3;
+    margin: 10px;
+}
+.sign-up form input {
+    background-color: #eef2f3;
+    max-width: 450px;
+}
+.sign-up p {
+    max-width: 450px;
+    color: #9A9C9C;
+}
+.sign-up a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #6A6C6C;
+}
+.sign-up .btn.btn-primary {
+    background: #2dbe60;
+    border: 0;
+    border-radius: 4px;
+    padding: 18px 20px 17px;
+    font-size: 16px;
+    min-width: 450px;
+
 }
 .rotating {
     min-height: 210px;
@@ -30,7 +96,6 @@ h1 #description-rotate {
 .verticalLine {
     width: 1px;
     background-color: #D6D3D3;
-    margin: 0px 0; 
     min-height: 200px; 
 }
 .benefit-1 .link {
