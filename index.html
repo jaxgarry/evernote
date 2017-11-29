@@ -10,43 +10,47 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
     <!-- Custom CSS -->
     <link rel="stylesheet" type="text/css" href="style/style.css">
-    <!-- Scripts -->
-    <script
-    src="https://code.jquery.com/jquery-3.2.1.min.js"
-    integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
-    crossorigin="anonymous"></script>
+         <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css">
+    
+    <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
 
     <script src="script/rotate.js"></script>
+    
+
 
 
   </head>
   <body>
-    <div class="container">
           
+    
 <!-- Navbar -->
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
-          <a class="navbar-brand" href="#">Navbar</a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
-              <li class="nav-item active">
-                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Features</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Pricing</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link disabled" href="#">Disabled</a>
-              </li>
-            </ul>
-          </div>
+
+      <nav class="navbar navbar-expand-lg fixed-top bg-light mb-4">
+          <a class="navbar-brand" href="#">
+              <img alt="Evernote Logo" src="images/evernote-logo.png">
+              <ul class="nav">
+                  <li class="dropdown">
+                    <a href="#" class="btn btn-default dropdown-toggle" data-toggle="dropdown">Explore</a>
+                    <ul class="dropdown-menu"><strong>Plans</strong>
+                      <li><a href="http://www.jaxgarry.com/evernote/coming-soon.html">Getting Started</a></li>
+                      <li><a href="http://www.jaxgarry.com/evernote/coming-soon.html">Basic</a></li>
+                      <li><a href="http://www.jaxgarry.com/evernote/coming-soon.html">Plus</a></li>
+                      <li><a href="http://www.jaxgarry.com/evernote/coming-soon.html">Premium</a></li>
+                    </ul>
+                  </li>
+                </ul>
         </nav>
+
         
+
+
+<div class="container mt-5">
+    
     <h1 class="header">Evernote</h1>
 
     
@@ -54,7 +58,9 @@
 <!-- Flipping text and login -->
       <div class="row"> 
         <div class="col-lg">
+            
         </div>
+
         <div class="divider-wrapper">
           <div></div>
         </div>
@@ -77,25 +83,32 @@
         <div class="verticalLine"> </div>
    </div>
  
-    <div class="col-lg">
+   
+    <div class="col-lg sign-up">
+      <div class="google">
+          <button type="submit" class="btn btn-secondary">Sign up for free with Google</button>
+      </div>          
+        
+      <div class="or-line">
+      <div class="horizontal-or-line"> </div>
+      <div class="or">
+        Or
+      </div>
+      <div class="horizontal-or-line"> </div>      
+      </div>
+
      <!-- Login Form -->
      <form>
         <div class="form-group">
-          <label for="exampleInputEmail1">Email address</label>
-          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-          <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email">
         </div>
         <div class="form-group">
-          <label for="exampleInputPassword1">Password</label>
           <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
         </div>
         <div class="form-check">
-          <label class="form-check-label">
-            <input type="checkbox" class="form-check-input">
-            Check me out
-          </label>
+         <p>By clicking Sign up, I agree to the <a href="https://evernote.com/legal/terms-of-service">Terms of Service</a> and <a href="https://evernote.com/privacy/policy">Privacy Policy</a>.</p>
         </div>
-        <button type="submit" class="btn btn-primary">Submit</button>
+        <button type="submit" class="btn btn-primary">Sign up for free</button>
       </form>
     </div>
    
@@ -190,10 +203,6 @@
 
     </div>
 
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+
   </body>
 </html>
