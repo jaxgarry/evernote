@@ -2,8 +2,36 @@
     font-size: 40px;
     color: green;
 }
+.rotating {
+    min-height: 210px;
+}
 h1 #description-rotate {
-    font-size: 22px;
+    font-size: 60px;
+    line-height: 70px;
+}
+.signup-google {
+    display: block;
+    margin-top: 26px;
+    background: url(/images/google-logo.svg) no-repeat;
+    background-size: 18px 18px;
+    background-position: left 15px center;
+    font-family: "Gotham_SSm_5r", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    text-decoration: none;
+    text-align: center;
+    color: #000;
+    border: 1px solid #d9d9d9;
+    border-radius: 4px;
+    line-height: 20px;
+    padding: 10px 40px;
+    -webkit-font-smoothing: antialiased;
+}
+
+.verticalLine {
+    width: 1px;
+    background-color: #D6D3D3;
+    margin: 0px 0; 
+    min-height: 200px; 
 }
 .benefit-1 .link {
     border-bottom: 2px solid #2dbe60; 
